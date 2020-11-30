@@ -1,0 +1,33 @@
+.cookie-counter{
+  display: flex;
+  justify-content: center;
+
+  &-p{
+    font-size: 2.5rem;
+    color: $brown-light-color;
+  }
+
+  &_input{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &_icon{
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin: 1rem;
+  }
+}
+.plus{
+  color: $pink-primary-color;
+}
+.minus{
+  color: $brown-dark-color;
+}
+.input-group-button {
+  .circle {
+    border-radius: 50%;
+    padding: 0.5em 0.8em;
+    color: $pink-primary-color;
+  }
+}

@@ -1,0 +1,16 @@
+
+.popup{
+  &_container {
+    background: $blue-light-color;
+  }
+  &_header{
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+    color: $pink-primary-color;
+    font-weight: bold;
+  }
+  &_desc{
+    font-size: 1.8rem;
+    color: $brown-dark-color;
+  }
+}

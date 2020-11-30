@@ -1,0 +1,20 @@
+.delivery_list{
+  &-item{
+    display: inline-flex;
+    list-style-type: none;
+    height: 2rem;
+    padding: 2rem;
+    align-items: end;
+    &-p{
+      margin-top: .4rem;
+      color: $brown-light-color;
+      font-weight: bold;
+    }
+  }
+}
+.delivery_address{
+  display: none;
+  &-with{
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+.pick_list{
+  &-item{
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 2rem;
+    padding: 2rem;
+    align-items: end;
+
+    &-p{
+      margin-top: .4rem;
+      color: $brown-light-color;
+
+      font-weight: bold;
+    }
+  }
+}
+
+.fresh{
+  margin-right: 2.4rem;
+}

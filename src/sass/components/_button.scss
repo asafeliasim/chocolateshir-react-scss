@@ -1,0 +1,106 @@
+.button{
+  &:link,
+  &visited {
+
+    text-decoration: none;
+    padding: .5rem 4rem;
+    display: inline-block;
+    border-radius: 1rem;
+    transition: all .2s;
+    font-size: $heading-primary-font;
+  }
+  &-tag{
+   text-decoration: none;
+   color: $brown-light-color;
+   &:hover{
+
+     transform: scale(1.1);
+     text-decoration: none;
+     color: $brown-light-color;
+   }
+  }
+  &-disabled{
+    display: none;
+  }
+  &-success{
+    background-color: white;
+    color: $pink-primary-color!important;
+    border: .2rem solid $pink-primary-color;
+    padding: 4px 2.5rem;
+    border-radius: 5px;
+
+    &-small{
+      font-size: 16px;
+    }
+    &-full{
+      background: $pink-primary-color;
+      color: white!important;
+      border: .2rem solid #fff;
+      padding: 4px 2.5rem;
+      border-radius: 5px;
+      &:hover{
+        cursor: pointer;
+        background-color: #fff;
+        color: $pink-primary-color!important;
+      }
+    }
+    &:hover{
+      cursor: pointer;
+      background-color: $pink-primary-color;
+      color: #fff!important;
+    }
+
+    &-center{
+      margin-right: 1.4rem;
+    }
+  }
+  &-primary{
+    background-color: white;
+    color: $brown-light-color;
+    font-weight: bold;
+    border: 1px solid $brown-light-color;
+
+    &:hover{
+      background-color:  $brown-light-color;
+      color: #fff;
+    }
+
+    &-center{
+      margin-right: 1.4rem;
+    }
+    &-small{
+    width: 100px !important;
+  }
+  }
+  &-plus{
+    border: 2px solid #000;
+    background-color: #fff;
+    font-size: 16px;
+    height: 2.5em;
+    width: 2.5em;
+    border-radius: 999px;
+    position: relative;
+    cursor: pointer;
+    &:after,
+    &:before {
+      content: "";
+      display: block;
+      background-color: #000;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    &:before {
+      height: 1em;
+      width: 0.2em;
+    }
+
+    &:after {
+      height: 0.2em;
+      width: 1em;
+    }
+
+
+  }
+}

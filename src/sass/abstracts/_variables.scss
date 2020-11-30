@@ -1,0 +1,31 @@
+// colors
+$pink-primary-color:#cf78b3;
+$blue-light-color: #c9e6f7;
+$brown-light-color:#8e7b6f;
+$brown-dark-color: #9b6830;
+$grey-primary-color:#777;
+$gery-light-color:#ededed;
+
+// GRID
+$grid-width:114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal:6rem;
+$gutter-vertical-sm:6rem;
+
+// fonts
+$heading-primary-font: 'Open Sans Hebrew Condensed', sans-serif;
+
+
+// sizes
+$heading-size: 4.5rem;
+$sub-heading-size: 2.2rem;
+
+.carousel-control-prev-icon{
+  background-color: $brown-dark-color;
+  padding: 1.5rem;
+}
+
+.carousel-control-next-icon{
+  background-color: $brown-dark-color;
+  padding: 1.5rem;
+}

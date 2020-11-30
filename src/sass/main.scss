@@ -1,0 +1,45 @@
+/* lightblue: #c9e6f7 */
+/* lightpink: #cf78b3 */
+/* lightbrown: #8e7b6f */
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+@import "abstracts/variables";
+
+
+@import 'base/base';
+@import 'base/animations';
+@import 'base/typogrophy';
+@import 'base/utils';
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/imagecontainer";
+@import "layout/footer";
+@import "layout/scrollup";
+@import "layout/navvar";
+
+@import "components/delievry";
+@import "components/card";
+@import "components/button";
+@import "components/form";
+@import "components/details";
+@import "components/about";
+@import "pages/home";
+@import "components/order";
+@import "components/counter";
+@import "components/popupLandong";
+@import "components/cart";
+@import "components/pickCookies";
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=David+Libre:wght@700&display=swap');
+@import url('//fonts.googleapis.com/earlyaccess/opensanshebrewcondensed.css');
+/* lightblue: #c9e6f7 */
+/* lightpink: #cf78b3 */
+/* lightbrown: #8e7b6f */
+
+/*font-family: 'David Libre', serif;*/
+
+
+
+
+
+

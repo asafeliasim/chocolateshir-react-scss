@@ -1,0 +1,9 @@
+.contact_details_container{
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+  &-icon{
+    padding-top: 1rem;
+    font-size: 3rem;
+  }
+}

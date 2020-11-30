@@ -1,0 +1,103 @@
+/* lightblue: #c9e6f7 */
+/* lightpink: #cf78b3 */
+/* lightbrown: #8e7b6f */
+
+/*font-family: 'David Libre', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=David+Libre:wght@700&display=swap');
+
+*,
+*::after,
+*::before{
+    margin:0;
+    padding:0;
+  /*  box-sizing: inherit;*/
+
+}
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color:  #8e7b6f;
+       /* padding: 3rem;*/
+
+  /*  box-sizing: border-box;*/
+}
+.header{
+    position: relative;
+    height: 90vh;
+
+    clip-path: polygon(0 0,100% 0,100% 75%,0 100%);
+}
+.logo-box{
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+
+}
+.logo{
+    height:12rem;
+}
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.heading-primary{
+
+}
+.heading-primary-main{
+    font-family: 'David Libre', serif;
+    color:  #cf78b3;
+    display: block;
+    font-size: 6rem;
+    font-weight: bold;
+    letter-spacing: 2.4rem;
+    margin-left: 1.5rem;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+
+}
+
+
+.heading-primary-sub{
+    display: block;
+    font-size: 2.4rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    margin-right: 2rem!important;
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+@keyframes moveInLeft {
+    0%{
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80%{
+        transform: translateX(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+@keyframes moveInRight {
+    0%{
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80%{
+        transform: translateX(-1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}

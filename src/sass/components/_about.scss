@@ -1,0 +1,33 @@
+.section_about{
+  padding-bottom:10rem;
+  position: relative;
+  @media (max-width: 600px){
+    padding: 5rem;
+  }
+}
+.logo_container{
+  display: flex;
+  justify-content: center;
+  margin-top:10rem;
+  &-logo{
+    width: 30rem;
+    height: auto;
+  }
+}
+.img_container{
+  position: relative;
+  padding-top: 5rem;
+  @media (max-width: 600px) {
+    display: none;
+  }
+  &-img{
+    display: block;
+    width: 80%;
+    border: 2px solid $pink-primary-color;
+  }
+}
+.scroll{
+  position: absolute;
+  bottom: -2rem;
+  left: 48%;
+}

@@ -1,0 +1,60 @@
+.form{
+
+
+  &_group{
+    &-btn{
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      a{
+        margin-left: 2rem;
+      }
+    }
+
+  }
+  &_group:not(:last-child){
+    margin-bottom: 1.2rem;
+
+  }
+  &_input{
+    font-size: 1.6rem;
+    padding: 1.2rem 2rem;
+    color: inherit;
+    border-radius: 2px;
+    background-color: $gery-light-color;
+    border: .5px solid rgba(255,255,255,0.4);
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    display: block;
+
+    &::-webkit-input-placeholder{
+      color: #8e7b6f;
+    }
+    &:focus{
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0,0,0,0.1);
+      border-bottom: 4px solid $pink-primary-color;
+    }
+    &:focus:invalid{
+      border-bottom: 4px solid $blue-light-color;
+    }
+    &-msg{
+      height: 8rem;
+      padding: .2rem 2rem!important;
+      &::-webkit-input-placeholder{
+        align-items: self-start;
+      }
+    }
+  }
+
+
+  &_label{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: .7rem;
+    display: block;
+  }
+
+
+}

@@ -1,0 +1,15 @@
+.scrollup_container{
+  background-color: $pink-primary-color;
+  border-radius: 300px;
+
+  &-tag{
+    font-size: 3rem;
+    padding: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover{
+      color: white;
+    }
+  }
+}

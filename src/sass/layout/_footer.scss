@@ -1,0 +1,46 @@
+.section_footer{
+  background-color: $blue-light-color;
+  margin-top: 10rem;
+  padding-bottom: 10rem;
+}
+.icon{
+  font-size: 4rem;
+  cursor: pointer;
+}
+.footer_container-links{
+  &-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: $brown-light-color;
+    &:hover{
+      cursor: pointer;
+      text-decoration: none;
+      color: $brown-light-color;
+    }
+    @media (max-width: 600px) {
+      font-size: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  &-divider{
+    border-left-style: 2px solid $brown-light-color;
+  }
+}
+.footer_copy{
+  margin-top: 3rem;
+  &-name{
+    font-size: 3rem;
+  }
+  &-cv{
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: $brown-light-color;
+    margin-left: 1.2rem;
+
+    &:hover{
+      text-decoration: none;
+      color: $brown-light-color;
+    }
+  }
+}

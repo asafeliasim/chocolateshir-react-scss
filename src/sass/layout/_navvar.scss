@@ -1,0 +1,49 @@
+.shir_navbar{
+  background: #fff!important;
+  padding: 0 4rem;
+  z-index: 1038;
+  @media (max-width: 600px) {
+    padding: 1.5rem 1rem;
+  }
+
+  &_list{
+    padding-right: 4.5rem;
+    @media (max-width: 600px) {
+      padding-right: 0!important;
+    }
+  }
+  &_link{
+    text-decoration: none;
+    padding: 2rem 1rem;
+    color: $brown-light-color!important;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0 1rem;
+    transition: .2s linear;
+    &:hover{
+      background: $pink-primary-color;
+      color: white!important;
+      text-decoration: none;
+     // color: $pink-primary-color!important;
+    }
+
+
+  }
+}
+.navbar{
+  &_shir{
+    background: white;
+  /*  position: fixed;*/
+
+   /* z-index: 1;*/
+
+  }
+  &_container{
+    display: inline-flex;
+    list-style-type: none;
+
+  }
+
+
+}
